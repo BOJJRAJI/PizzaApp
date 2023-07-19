@@ -1,0 +1,37 @@
+
+
+.food-list {
+list-style-type: none;
+padding-left: 10px;
+padding-right: 10px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.popup-view {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+.item {
+color: #222222;
+font-weight: 500;
+font-size: 13px;
+}
+.description {
+color: #3c404e;
+font-size: 12px;
+font-weight: 200;
+}
+.price {
+background-color: #f0f1f4;
+color: #222222;
+text-align: center;
+height: 20px;
+width: 50px;
+font-size: 12px;
+padding: 5px;
+border-radius: 2px;
+}

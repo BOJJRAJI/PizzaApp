@@ -1,0 +1,479 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+min-height: 100vh;
+}
+.nav-container {
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+padding-left: 20px;
+padding-right: 20px;
+box-shadow: 0px 4px 10px 0px #d4d5dd;
+box-sizing: border-box;
+padding-top: 5px;
+padding-bottom: 5px;
+background-color: #ffffff;
+}
+.icon {
+height: 30px;
+width: 30px;
+}
+.favourite-login-container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.favourite-container {
+display: flex;
+flex-direction: row;
+margin-right: 10px;
+}
+.favourite-name {
+font-family: 'Roboto';
+font-size: 14px;
+color: #222222;
+}
+.login-container {
+display: flex;
+flex-direction: row;
+}
+.person-icon {
+margin-top: 15px;
+margin-left: 5px;
+}
+.favouritelogin-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+.login-signup-container {
+height: 150px;
+width: 250px;
+border-radius: 10px;
+text-align: center;
+padding: 20px;
+}
+@media screen and (max-width: 576px) {
+.nav-container {
+border-bottom: 2px dotted #d4d5dd;
+box-shadow: none;
+}
+.favourite-name {
+display: none;
+}
+.person-icon {
+margin-top: 0px;
+margin-left: 5px;
+}
+}
+
+.banner-container {
+background-image: url('https://bno-restaurant-images.imgix.net/7211404b-b379-4cb7-b196-c2a617252720.jpg');
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 350px;
+}
+
+.center-icon {
+height: 150px;
+width: 150px;
+}
+.logo-heading {
+font-family: 'Roboto';
+font-size: 20px;
+color: #ffffff;
+font-weight: 700;
+}
+
+.footer-section {
+position: bottom;
+text-align: center;
+background-color: #2d2d2d;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+.icons-container {
+text-align: center;
+}
+.hr-line {
+color: #eeeeee;
+width: 40%;
+}
+.footer-icon {
+margin-right: 10px;
+color: #ffffff;
+height: 20px;
+width: 20px;
+}
+.footer-heading {
+font-size: 16px;
+color: #ffffff;
+}
+.span1 {
+text-decoration: underline;
+color: #ef7a17;
+}
+.span2 {
+text-decoration: underline;
+}
+
+.services-hours-location-container {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 100%;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.services-card {
+padding: 20px;
+box-shadow: 0px 4px 10px 0px #d4d5dd;
+width: 30%;
+}
+.bag-heading-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.cart-container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: #2d2d2d;
+padding: 10px;
+border-radius: 20px;
+height: 40px;
+width: 40px;
+}
+.bag-icon {
+color: #ffffff;
+}
+.services-heading {
+color: #222222;
+font-family: 'Roboto';
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+}
+.text-para {
+font-family: 'Roboto';
+font-size: 13px;
+color: #222222;
+border-bottom: 2px dotted #d4d5dd;
+padding-bottom: 5px;
+}
+.delivery-container {
+border-bottom: 2px dotted #d4d5dd;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.text-delivery {
+font-family: 'Roboto';
+font-size: 13px;
+color: #222222;
+}
+.arrow-icon {
+color: gray;
+height: 20px;
+width: 20px;
+margin-top: 10px;
+}
+.deliveryfee-order-container {
+padding: 0px;
+}
+.fee-heading {
+color: #222222;
+font-family: 'Roboto';
+font-size: 15px;
+font-weight: 500;
+}
+.price {
+font-family: 'Roboto';
+font-size: 13px;
+color: #222222;
+}
+
+.location-card {
+text-align: center;
+padding: 20px;
+box-shadow: 0px 4px 10px 0px #d4d5dd;
+width: 30%;
+}
+.location-para {
+font-family: 'Roboto';
+font-size: 15px;
+color: #222222;
+}
+
+.map-button {
+color: #222222;
+border: 2px solid #222222;
+padding: 7px;
+background-color: transparent;
+border-radius: 5px;
+}
+
+.openinghours-container {
+text-align: center;
+padding: 20px;
+box-shadow: 0px 4px 10px 0px #d4d5dd;
+width: 30%;
+}
+.day-time-container {
+border-bottom: 2px dotted #d4d5dd;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.day {
+font-family: 'Roboto';
+font-size: 13px;
+color: #222222;
+}
+.time {
+font-family: 'Roboto';
+font-size: 13px;
+color: #222222;
+}
+.sunday-container {
+border-bottom: 2px dotted #d4d5dd;
+}
+.sunday-time-container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.special-openings-container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+.services-hours-location-container {
+display: flex;
+flex-direction: column;
+}
+.services-card {
+width: 90%;
+margin: 20px;
+}
+.openinghours-container {
+width: 90%;
+margin: 20px;
+}
+.location-card {
+width: 90%;
+margin: 20px;
+}
+}
+
+.tabs-items-order-container {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 100%;
+}
+.tabs-main-container {
+border-right: 1px solid #d4d5dd;
+width: 30%;
+margin-left: 20px;
+}
+.tabs-container {
+padding-left: 0px;
+list-style-type: none;
+text-align: right;
+}
+.small-devises-tabs-main-container {
+display: none;
+}
+.display-food-items-container {
+display: flex;
+flex-direction: column;
+width: 40%;
+}
+.food-items-container {
+padding-left: 0px;
+box-shadow: 0px 4px 10px 0px #d4d5dd;
+border-radius: 10px;
+}
+.category-name {
+color: #222222;
+font-weight: bold;
+font-size: 15px;
+}
+.category-para {
+color: #3c404e;
+font-size: 15px;
+font-weight: 200;
+}
+@media screen and (max-width: 576px) {
+.tabs-main-container {
+display: none;
+}
+.small-devises-tabs-main-container {
+display: flex;
+}
+.small-devices-tabs-container {
+display: flex;
+flex-direction: row;
+list-style-type: none;
+overflow-y: scroll;
+}
+.display-food-items-container {
+text-align: left;
+display: flex;
+margin: 30px;
+width: 100%;
+}
+}
+
+.order-online-card {
+width: 25%;
+border-radius: 10px;
+background-color: #f0f1f4;
+text-align: center;
+margin: 10px;
+height: 200px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.knife-icon {
+width: 100%;
+}
+.ready-to-eat-heading {
+color: #3c404e;
+font-family: 'Roboto';
+font-size: 25px;
+}
+.order-online-button {
+background-color: #453e38;
+padding: 10px;
+border-radius: 7px;
+border: none;
+color: #ffffff;
+width: 80%;
+font-weight: 700;
+}
+.order-online-para {
+color: #3c404e;
+font-family: 'Roboto';
+font-size: 15px;
+}
+@media screen and (max-width: 576px) {
+.order-online-card {
+display: none;
+}
+}
+
+.popup-card {
+height: 200px;
+width: 400px;
+border-radius: 10px;
+padding: 20px;
+background-color: #ffffff;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.cancel-button-container {
+text-align: right;
+}
+.popup-button {
+background-color: transparent;
+border: none;
+
+height: 30px;
+width: 30px;
+}
+.delivery-options-container {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 50%;
+}
+.pickup-para {
+font-size: 15px;
+}
+.login-popup-container {
+background-color: #ffffff;
+text-align: center;
+width: 400px;
+height: 300px;
+padding-top: 10px;
+}
+.login-person-icon {
+color: #222222;
+width: 100%;
+}
+.cancel-container {
+width: 100%;
+text-align: end;
+border: none;
+}
+.popup-cancel-button {
+border: none;
+background-color: transparent;
+}
+.popup-name {
+font-size: 17px;
+color: #222222;
+font-weight: 600;
+}
+.email-input {
+background-color: transparent;
+text-align: center;
+border: 1px solid #d4d5dd;
+padding: 5px;
+width: 70%;
+border-radius: 3px;
+}
+.continue-button {
+width: 70%;
+border-radius: 3px;
+padding: 7px;
+border: none;
+color: #ffffff;
+background-color: #2d2d2d;
+margin-top: 8px;
+font-weight: 700;
+}
+.facebook-button {
+color: #ffffff;
+background-color: lightseagreen;
+width: 70%;
+border-radius: 3px;
+padding: 7px;
+border: none;
+margin-top: 8px;
+font-weight: 700;
+}
+.terms-conditions-text {
+color: #222222;
+text-decoration: underline;
+}
+.save-popup-text {
+font-size: 14px;
+color: #222222;
+}
